@@ -86,7 +86,7 @@ document.addEventListener("click", (e)=>{
     }
 
     if(targetEl.classList.contains("finish-todo")){
-        parentEl.classList.add("done");
+        parentEl.classList.toggle("done");
 
     }
 
